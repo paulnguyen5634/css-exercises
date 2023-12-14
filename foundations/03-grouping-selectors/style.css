@@ -1,0 +1,22 @@
+/* style.css */
+
+/* Grouping selectors */
+.clickme1,
+.clickme2 {
+    /* Both elements: a font size of 28px and a list of fonts 
+    containing Helvetica and Times New Roman, with sans-serif as a fallback */
+
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.clickme1 {
+    /* The first element: a black background and white text */
+    background-color: black;
+    color: white;
+}
+
+.clickme2 {
+    /* The second element: a yellow background */
+    background-color: yellow;
+}
